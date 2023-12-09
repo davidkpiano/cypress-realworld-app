@@ -42,6 +42,7 @@ export const createTransactionMachine = Machine<
   CreateTransactionMachineEvents
 >(
   {
+    /** @xstate-layout N4IgpgJg5mDOIC5QGMBOYCGAXMAVVGAdrBslgJYD2hAdLDgA4DyhYAxAMoCiuA+gKrcAShwDaABgC6iUA0qxyFajJAAPRACYAzAEYaAFgCsujYYA0IAJ6aAbOJqHxTnRrtatATi0aAvj4tomDj4RCRkVLT0YAy4AO6UbADCQlwAgrhcEtJIIHIKSoQq6gga+ho03gAcLuZWiIYaek7OruLuXr7+IIHYeATEpAV0jLgAFujsKdy4WSp5ihFFiHYW1iV2Ds0ubp7efl2ElBBwKj3B-WEFc-ILyjnFLquIOnoebx6VAOyeNnY2nx8-AF0L0QgNwtRhtEWGBrvlFvdnjZKjQbDpKvpKh5DJV3HidE8EB57M1xNs2rtOsCgn1QoMIlCYvE4bdCoiEC89KZPOIbKZCVpHJsWjsOkDuiDznSIZERuMwLCcvMruydFp9DQMZ8bIY+bU1mimltWu09vsgA */
     id: "createTransaction",
     initial: "stepOne",
     states: {
