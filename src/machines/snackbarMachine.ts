@@ -21,6 +21,7 @@ export interface SnackbarContext {
 
 export const snackbarMachine = Machine<SnackbarContext, SnackbarSchema, SnackbarEvents>(
   {
+    /** @xstate-layout N4IgpgJg5mDOIC5SwHYEMDGBrARmgTgHQCWKAbsbMTgDZgDEAygBIDyA6gNoAMAuoqAAOAeyoAXYsJQCQAD0QBmAEwBGQgoAsAdgBsAVh1K9AGhABPREoAc3QiqMBfB6dSZcBQhSq0GzAJIAIgCiPPxIICLiktLh8gjKOoR6VkrcCvYm5ogqAJy2GU4u6Nh4RF7UdPSysGJoYmCEaABm9fgAFArcXQCU9K4lHuU+oTKRxBJSMnFKOVqEWipWWpkWCCpddo6FICjCEHAy-e74o6Lj0VOIALQaVqarV1pW20elJOSUFWCnUZOxiDpuPdEHkXsVjp5Pj4fuc-qA4to9IQjMC1hocoQlnonE4gA */
     id: "snackbar",
     initial: "invisible",
     context: {
